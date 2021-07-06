@@ -17,7 +17,9 @@ ctrl+d：选中全部目标单词
 alt+a:多行代码合并为一行
 ctrl+i:显示代码提示
 alt+t：输入中文翻译成英文
-alt+shift+w:翻译选中内容
+alt+shift+w:翻译选中英文内容
+选中函数ctrl+alt+d 两次：给函数添加jsdoc（注释）文档
+ctrl+p:按文件名查找文件
 
 shell切换：需要先配置git的bash地址："terminal.integrated.shell.windows": "C:\\git\\Git\\bin\\bash.exe",然后就可以在终端输入cmd切换windows shell ，输入bash切换git终端
 
