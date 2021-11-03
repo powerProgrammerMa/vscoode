@@ -23,6 +23,7 @@ ctrl+p:按文件名查找文件
 
 shell切换：需要先配置git的bash地址："terminal.integrated.shell.windows": "C:\\git\\Git\\bin\\bash.exe",然后就可以在终端输入cmd切换windows shell ，输入bash切换git终端
 
+nvm：node版本管理器
 ## 推荐的 vscode 快捷动作(自己配置合适的快捷键吧)
 - 代码提示 `editor.action.triggerSuggest`
 - 多行合并一行 `editor.action.joinLines`
@@ -49,3 +50,4 @@ cgr：npm源管理器：
   cgr ls
 
 
+npm shrinkwrap  生成当前本地环境依赖版本记录文件---避免其他环境在install的时候升级package.json里面的包自动升级
