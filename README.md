@@ -20,6 +20,8 @@ alt+t：输入中文翻译成英文
 alt+shift+w:翻译选中英文内容
 选中函数ctrl+alt+d 两次：给函数添加jsdoc（注释）文档
 ctrl+p:按文件名查找文件
+alt+z:px转rem;
+alt+x:px转vw;
 
 shell切换：需要先配置git的bash地址："terminal.integrated.shell.windows": "C:\\git\\Git\\bin\\bash.exe",然后就可以在终端输入cmd切换windows shell ，输入bash切换git终端
 
