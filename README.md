@@ -1,10 +1,18 @@
+<!--
+ * @Author: MaJianSong
+ * @Date: 2021-06-27 03:31:34
+ * @LastEditors: MaJianSong
+ * @LastEditTime: 2022-04-25 11:46:12
+ * @FilePath: \vscoode\README.md
+ * @Description: vscode配置文件
+ * 
+-->
 # vscode
 git_token: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
 gitid:11208a8ba27138eb6cd05ec18c0fe30b---VSCODE配置id
 
 ## vscode快捷键：
 VS Code ES7 React/Redux/React-Native/JS snippets  --vscode插件  快捷键 rcc 创建类模板  rfc--创建函数模板
-ctrl+alt+i:生成文件顶部注释
 ctrl+shift+p:打开vscode配置
 alt+shift+u:上传vscode配置
 alt+shift+d:下载vscode配置
@@ -18,7 +26,8 @@ alt+a:多行代码合并为一行
 ctrl+i:显示代码提示
 alt+t：输入中文翻译成英文
 alt+shift+w:翻译选中英文内容
-选中函数ctrl+alt+d 两次：给函数添加jsdoc（注释）文档
+ctrl+alt+t：添加函数注释
+ctrl+alt+i：生成文件顶部注释
 ctrl+p:按文件名查找文件
 alt+z:px转rem;
 alt+x:px转vw;
