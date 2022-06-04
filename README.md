@@ -2,7 +2,7 @@
  * @Author: MaJianSong
  * @Date: 2021-06-27 03:31:34
  * @LastEditors: MaJianSong
- * @LastEditTime: 2022-04-25 11:46:12
+ * @LastEditTime: 2022-06-05 01:12:06
  * @FilePath: \vscoode\README.md
  * @Description: vscode配置文件
  * 
@@ -10,7 +10,6 @@
 # vscode
 git_token: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
 gitid:11208a8ba27138eb6cd05ec18c0fe30b---VSCODE配置id
-
 ## vscode快捷键：
 VS Code ES7 React/Redux/React-Native/JS snippets  --vscode插件  快捷键 rcc 创建类模板  rfc--创建函数模板
 ctrl+shift+p:打开vscode配置
