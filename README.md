@@ -2,7 +2,7 @@
  * @Author: MaJianSong
  * @Date: 2021-06-27 03:31:34
  * @LastEditors: MaJianSong
- * @LastEditTime: 2022-06-05 01:12:06
+ * @LastEditTime: 2022-10-28 16:33:32
  * @FilePath: \vscoode\README.md
  * @Description: vscode配置文件
  * 
@@ -34,6 +34,15 @@ alt+x:px转vw;
 shell切换：需要先配置git的bash地址："terminal.integrated.shell.windows": "C:\\git\\Git\\bin\\bash.exe",然后就可以在终端输入cmd切换windows shell ，输入bash切换git终端
 
 nvm：node版本管理器
+nvm version         // 查看nvm版本
+nvm install 4.6.2   // 安装node4.6.2版本（附带安装npm）
+nvm uninstall 4.6.2 // 卸载node4.6.2版本
+nvm list            // 查看node版本
+nvm use 4.6.2       // 将node版本切换到4.6.2版本
+nvm root　　　　     // 查看nvm安装路径 
+nvm install latest  //下载最新的node版本和与之对应的npm版本
+————————————————
+
 ## 推荐的 vscode 快捷动作(自己配置合适的快捷键吧)
 - 代码提示 `editor.action.triggerSuggest`
 - 多行合并一行 `editor.action.joinLines`
