@@ -2,7 +2,7 @@
  * @Author: MaJianSong
  * @Date: 2021-06-27 03:31:34
  * @LastEditors: MaJianSong
- * @LastEditTime: 2022-10-28 16:33:32
+ * @LastEditTime: 2022-11-01 16:59:45
  * @FilePath: \vscoode\README.md
  * @Description: vscode配置文件
  * 
@@ -32,6 +32,11 @@ alt+z:px转rem;
 alt+x:px转vw;
 
 shell切换：需要先配置git的bash地址："terminal.integrated.shell.windows": "C:\\git\\Git\\bin\\bash.exe",然后就可以在终端输入cmd切换windows shell ，输入bash切换git终端
+
+1. 关闭段落校验 /* eslint-disable */some code some code /* eslint-enable */ 
+2. 关闭当前行校验 some code // eslint-disable-line 
+3. 关闭下一行校验 // eslint-disable-next-line some code 
+4. 关闭整个文件校验 /* eslint-disable */
 
 nvm：node版本管理器
 nvm version         // 查看nvm版本
