@@ -2,7 +2,7 @@
  * @Author: MaJianSong
  * @Date: 2021-06-27 03:31:34
  * @LastEditors: MaJianSong
- * @LastEditTime: 2022-11-01 16:59:45
+ * @LastEditTime: 2022-12-11 14:31:03
  * @FilePath: \vscoode\README.md
  * @Description: vscode配置文件
  * 
@@ -75,3 +75,6 @@ cgr：npm源管理器：
 
 
 npm shrinkwrap  生成当前本地环境依赖版本记录文件---避免其他环境在install的时候升级package.json里面的包自动升级
+
+删除本地已经在远程删除的分支
+git remote prune origin
