@@ -2,7 +2,7 @@
  * @Author: MaJianSong
  * @Date: 2021-06-27 03:31:34
  * @LastEditors: MaJianSong
- * @LastEditTime: 2022-12-11 14:31:03
+ * @LastEditTime: 2023-03-15 02:05:50
  * @FilePath: \vscoode\README.md
  * @Description: vscode配置文件
  * 
@@ -78,3 +78,9 @@ npm shrinkwrap  生成当前本地环境依赖版本记录文件---避免其他�
 
 删除本地已经在远程删除的分支
 git remote prune origin
+
+
+-----插件配置
+windows opacity---屏幕透明
+rest client ---接口调试
+Better Comments---代码高亮
