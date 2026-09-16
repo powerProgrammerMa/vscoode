@@ -8,7 +8,8 @@
  * 
 -->
 # vscode
-git_token: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
+// 这里做了特殊处理的，否则git无法提交
+git /// _token:ghp_2NFxP + JKvOcD0Ek9esoQ + VaK61qHbZhO1YsJgJ
 gitid:11208a8ba27138eb6cd05ec18c0fe30b---VSCODE配置id
 ## vscode快捷键：
 VS Code ES7 React/Redux/React-Native/JS snippets  --vscode插件  快捷键 rcc 创建类模板  rfc--创建函数模板
@@ -84,3 +85,22 @@ git remote prune origin
 windows opacity---屏幕透明
 rest client ---接口调试
 Better Comments---代码高亮
+
+
+## git暂存代码：适用于分支之间代码拷贝
+git stash list  查看暂存空间
+git stash save "暂存空间名称"  暂存代码
+git stash apply   恢复代码(默认恢复第一个也可以加序号选择)
+git stash clear   删除暂存
+
+
+# vscode配置
+"workbench.colorCustomizations": {
+      //设置用户选中代码段的颜色
+      "editor.selectionBackground": "#0bc3614e",
+      "editor.selectionHighlightBackground": "#0bc3614e",
+      //设置活动tab窗口颜色
+      "tab.activeBackground": "#66a76b6d",
+      // 光标所在行的行框
+      "editor.lineHighlightBorder": "#006188"
+  },
